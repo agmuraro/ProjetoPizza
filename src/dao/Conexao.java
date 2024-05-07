@@ -15,7 +15,7 @@ public class Conexao {
     private Conexao(){
         this.host = "jdbc:mysql://localhost:3307/tabelausuarios?useSSL=false";
         this.usuario = "root";
-        this.senha = "root";
+        this.senha = "";
 
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
@@ -30,7 +30,6 @@ public class Conexao {
         catch (Exception ex){
             ex.printStackTrace();
         }
-
 
     }
 

@@ -15,3 +15,5 @@ F
 .src/controller/CadastrarUsuarioController.java,f\a\fa37577b64c87a54d3636404a22fccf58236aa51
 D
 src/dao/Conexao.java,5\5\5535c8d6d93b54f26d17f46e03e1c69dc333279a
+G
+src/dao/UsuarioDAO.java,e\3\e3f8e442210dc56f7cd6f402e8faf555f393acac
