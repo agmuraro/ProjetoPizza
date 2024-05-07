@@ -4,6 +4,7 @@ import view.MenuView;
 
 public class MenuController {
 
+    private CadastrarUsuarioController cduser;
     private MenuView mv;
     private int opcao;
 
@@ -14,6 +15,7 @@ public class MenuController {
             this.opcao = this.mv.menu();
 
             if(this.opcao == 1){
+                this.cduser = new CadastrarUsuarioController();
 
             }else if(this.opcao == 2){
 
