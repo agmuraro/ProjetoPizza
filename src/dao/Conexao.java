@@ -13,9 +13,9 @@ public class Conexao {
     private static Conexao conexao;
 
     private Conexao(){
-        this.host = "jdbc:mysql://localhost:3307/tabelausuarios?useSSL=false";
+        this.host = "jdbc:mysql://localhost:3306/projetopizza?useSSL=false";
         this.usuario = "root";
-        this.senha = "";
+        this.senha = "root";
 
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");

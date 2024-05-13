@@ -5,8 +5,6 @@ F
 src/view/MenuView.java,5\7\57f97a920b2e9fc508b70ea3471e468e3a61ad8d
 R
 "src/controller/MenuController.java,b\d\bdaa48084cd527a2c22fc27580071f5a7fff66ba
-Q
-!src/view/CadastroUsuarioView.java,6\2\626ea1e98af666a599b455dd697b0c440a0905d8
 R
 "src/view/CadastrarUsuarioView.java,3\5\350f4b0cad8b9309cc4b9c9df1d414106d96ace5
 F
