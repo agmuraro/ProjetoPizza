@@ -8,23 +8,25 @@ public class MenuController {
     private MenuView mv;
     private int opcao;
 
-    public MenuController(){
+    public MenuController() {
         this.mv = new MenuView();
 
-        while(this.opcao != 9) {
+        while (this.opcao != 9) {
             this.opcao = this.mv.menu();
 
-            if(this.opcao == 1){
+            if (this.opcao == 1) {
                 this.cduser = new CadastrarUsuarioController();
 
-            }else if(this.opcao == 2){
+            } else if (this.opcao == 2) {
 
-            }else{
+            } else if (this.opcao == 9){
+                this.mv.sair();
+            } else{
                 this.mv.opcaoInvalida();
             }
+
+
         }
 
-
     }
-
 }
