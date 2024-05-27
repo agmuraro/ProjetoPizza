@@ -15,3 +15,7 @@ D
 src/dao/Conexao.java,5\5\5535c8d6d93b54f26d17f46e03e1c69dc333279a
 G
 src/dao/UsuarioDAO.java,e\3\e3f8e442210dc56f7cd6f402e8faf555f393acac
+G
+src/view/LoginView.java,a\c\ac36277428fa53245ba01909595374145963254b
+S
+#src/controller/LoginController.java,d\f\df334df4cf9e0215bcc41bca05dfa078b2d8e1c5
