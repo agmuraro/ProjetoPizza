@@ -1,10 +1,10 @@
 
-m	java:S106"+Replace this use of System.out by a logger.(ÛÎ†·8½¤Òüô1J$19c36442-a61c-42e9-9b93-266ba6e639a7
-r	java:S106"+Replace this use of System.out by a logger.(˜¸íÄøÿÿÿÿ8ƒÂÔüô1J$cc79e310-de7b-445e-b0ec-3224b4532625
-m	java:S106"+Replace this use of System.out by a logger.(âÊÙ¾8×ôÔüô1J$2d31e174-ed37-4c3e-abea-98dfb3fcceec
-r	java:S106"+Replace this use of System.out by a logger.(àÀÈ¶ÿÿÿÿÿ8ûÉ×üô1J$0875d1ed-ce5b-4528-b693-876c7df2bac5
-m	java:S106"+Replace this use of System.out by a logger.(’é â8î¯Üüô1J$afd70074-65b2-425c-9fda-37f1f9c73f02
-l	java:S106"+Replace this use of System.out by a logger.(øã¢.8§›ßüô1J$48717680-50c7-4158-ba92-996544388673
-r	java:S106"+Replace this use of System.out by a logger.(ï†Éÿÿÿÿÿÿ8ŠÒæüô1J$487cff16-1d08-4e7b-a789-55714fc5d196
-r	java:S106"+Replace this use of System.out by a logger.(ìÂ”¢ıÿÿÿÿ8ùÑâŸ÷1J$5db1c7fc-e726-4053-bc59-d4dc2b0f46df
-r	java:S106"+Replace this use of System.out by a logger.(Şš¶Ûıÿÿÿÿ8 ±ëŸ÷1J$b5720f83-5c84-4396-9fc9-a538aefc8704
+m	java:S106"+Replace this use of System.out by a logger.(ÛÎ†·8Ú°åãû1J$e71068c2-f0a6-44d0-b9bb-33be9bf6624b
+r	java:S106"+Replace this use of System.out by a logger.(˜¸íÄøÿÿÿÿ8Û°åãû1J$43b73026-32ab-494f-97f7-5c6c8f10a469
+m	java:S106"+Replace this use of System.out by a logger.(âÊÙ¾8Ü°åãû1J$f2a67675-a595-491f-bb14-b397bc5994fd
+r	java:S106"+Replace this use of System.out by a logger.(àÀÈ¶ÿÿÿÿÿ8Ü°åãû1J$3bbd9df4-5e91-429b-b94c-39933a47add6
+m	java:S106"+Replace this use of System.out by a logger.(’é â8İ°åãû1J$43d8950b-5e4b-4de7-8e29-b3b310bff0ab
+l	java:S106"+Replace this use of System.out by a logger.(øã¢.8İ°åãû1J$f091e6d6-be07-408f-96ec-94ecb1e312ac
+m	java:S106"+Replace this use of System.out by a logger.(òï‰Õ8İ°åãû1J$c4486d23-6b83-421f-ab4a-ac7327e052e4
+r	java:S106"+Replace this use of System.out by a logger.(ìÂ”¢ıÿÿÿÿ8ß°åãû1J$cb36e3d0-1934-4b1a-9607-5d650f038cb1
+r	java:S106"+Replace this use of System.out by a logger.(Şš¶Ûıÿÿÿÿ8ß°åãû1J$f42dc000-6a7f-4510-9424-deb02403d166

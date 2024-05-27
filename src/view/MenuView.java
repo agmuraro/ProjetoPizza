@@ -3,11 +3,10 @@ package view;
 import java.util.Scanner;
 
 public class MenuView {
-
     private Scanner scanner;
 
-    public MenuView(){
-        this.scanner = new Scanner(System.in);
+    public MenuView(Scanner scanner){
+        this.scanner = scanner;
     }
 
     public int menu(){
@@ -17,16 +16,17 @@ public class MenuView {
         System.out.println("(2) Entrar");
         System.out.println("(3) Entrar como Admin");
         System.out.println("(9) Sair");
-        System.out.println("Opção: ");
-        return scanner.nextInt();
+        System.out.print("Opção: ");
+        int opcao = scanner.nextInt();
+        scanner.nextLine();
+        return opcao;
     }
 
     public void sair(){
         System.out.println("Saindo...");
     }
+
     public void opcaoInvalida(){
         System.out.println("Opção inválida!");
     }
-
-
 }
