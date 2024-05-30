@@ -1,4 +1,9 @@
 
-J	java:S108")Either remove or fill this block of code.(ê˜ßîûÿÿÿÿ8¹ø ÷1
-m
-java:S1068"*Remove this unused "cduser" private field.(Ô¼­º8Â±„õ1J$64f0c977-1a97-4408-a894-1cf05687d48e
+G
+java:S1068"*Remove this unused "cduser" private field.(Ô¼­º8–—ÇØü1
+D
+java:S1068"'Remove this unused "cpc" private field.(ø¶•¶8——ÇØü1
+I
+java:S1068	"'Remove this unused "fpc" private field.(§×â•ûÿÿÿÿ8——ÇØü1
+H
+java:S1068"+Remove this unused "scanner" private field.(Ù‘Ğ8——ÇØü1
