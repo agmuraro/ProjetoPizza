@@ -12,9 +12,12 @@ public class Conexao {
     private String senha;
 
     private Conexao() {
+
         this.host = "jdbc:mysql://localhost:3307/projetopizza?useSSL=false";
         this.usuario = "root";
         this.senha = "";
+
+
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");

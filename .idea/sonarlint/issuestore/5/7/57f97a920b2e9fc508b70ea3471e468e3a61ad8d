@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 m	java:S106"+Replace this use of System.out by a logger.(ÛÎ†·8Ž®„Ôü1J$4687bbb8-a66b-4f1e-8cf7-744c25f9d0fa
 r	java:S106"+Replace this use of System.out by a logger.(˜¸íÄøÿÿÿÿ8Ž®„Ôü1J$46255494-49ce-45f3-8cf3-29d8e3d77443
 m	java:S106"+Replace this use of System.out by a logger.(âÊÙ¾8Ž®„Ôü1J$14ca4ddd-1a48-4649-a740-88666c33c08f
@@ -9,3 +10,14 @@ l	java:S106"+Replace this use of System.out by a logger.(øã¢.8Ž®„Ôü1J$8ad5085
 m	java:S106"+Replace this use of System.out by a logger.(òï‰Õ8Ž®„Ôü1J$bba4f35a-e7e9-4134-b8ab-05bbafcea04d
 r	java:S106"+Replace this use of System.out by a logger.(ìÂ”¢ýÿÿÿÿ8™ÄÅÕü1J$e3258411-4500-44ce-8716-a122ff1c7406
 r	java:S106"+Replace this use of System.out by a logger.(Þš¶Ûýÿÿÿÿ8˜ð¶Öü1J$7714f24c-fc85-45f1-9172-bdbbab70f335
+=======
+m	java:S106"+Replace this use of System.out by a logger.(ÛÎ†·8Ú°åãû1J$e71068c2-f0a6-44d0-b9bb-33be9bf6624b
+r	java:S106"+Replace this use of System.out by a logger.(˜¸íÄøÿÿÿÿ8Û°åãû1J$43b73026-32ab-494f-97f7-5c6c8f10a469
+m	java:S106"+Replace this use of System.out by a logger.(âÊÙ¾8Ü°åãû1J$f2a67675-a595-491f-bb14-b397bc5994fd
+r	java:S106"+Replace this use of System.out by a logger.(àÀÈ¶ÿÿÿÿÿ8Ü°åãû1J$3bbd9df4-5e91-429b-b94c-39933a47add6
+m	java:S106"+Replace this use of System.out by a logger.(’é â8Ý°åãû1J$43d8950b-5e4b-4de7-8e29-b3b310bff0ab
+l	java:S106"+Replace this use of System.out by a logger.(øã¢.8Ý°åãû1J$f091e6d6-be07-408f-96ec-94ecb1e312ac
+m	java:S106"+Replace this use of System.out by a logger.(òï‰Õ8Ý°åãû1J$c4486d23-6b83-421f-ab4a-ac7327e052e4
+r	java:S106"+Replace this use of System.out by a logger.(ìÂ”¢ýÿÿÿÿ8ß°åãû1J$cb36e3d0-1934-4b1a-9607-5d650f038cb1
+r	java:S106"+Replace this use of System.out by a logger.(Þš¶Ûýÿÿÿÿ8ß°åãû1J$f42dc000-6a7f-4510-9424-deb02403d166
+>>>>>>> 750d09a29c70c207c2b4665eca20d9ad946667cf

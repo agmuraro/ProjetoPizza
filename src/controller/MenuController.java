@@ -7,6 +7,7 @@ public class MenuController {
     private CadastrarUsuarioController cduser;
     private CadastrarPizzaController cpc;
     private FazerPedidoController fpc;
+
     private LoginController lguser;
     private MenuView mv;
     private Scanner scanner;
