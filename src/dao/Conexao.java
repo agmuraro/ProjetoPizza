@@ -5,43 +5,37 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Conexao {
-
+    private static Conexao conexao;
+    private Connection connection;
     private String host;
     private String usuario;
     private String senha;
-    private Connection connection;
-    private static Conexao conexao;
 
-    private Conexao(){
-        this.host = "jdbc:mysql://localhost:3306/projetopizza?useSSL=false";
+    private Conexao() {
+        this.host = "jdbc:mysql://localhost:3307/projetopizza?useSSL=false";
         this.usuario = "root";
-        this.senha = "root";
+        this.senha = "";
 
-        try{
+        try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             this.connection = DriverManager.getConnection(host, usuario, senha);
-        }
-        catch (ClassNotFoundException ex){
+        } catch (ClassNotFoundException ex) {
+            ex.printStackTrace();
+        } catch (SQLException ex) {
+            ex.printStackTrace();
+        } catch (Exception ex) {
             ex.printStackTrace();
         }
-        catch(SQLException ex){
-            ex.printStackTrace();
-        }
-        catch (Exception ex){
-            ex.printStackTrace();
-        }
-
     }
 
-    public static Conexao getInstancia(){
-        if(conexao == null){
+    public static Conexao getInstancia() {
+        if (conexao == null) {
             conexao = new Conexao();
         }
         return conexao;
     }
 
-    public Connection getConnection(){
+    public Connection getConnection() {
         return this.connection;
     }
-
 }

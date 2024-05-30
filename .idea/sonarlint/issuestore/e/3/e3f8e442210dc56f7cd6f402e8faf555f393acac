@@ -1,7 +1,7 @@
 
-n
-java:S1450"QRemove the "ps" field and declare it as a local variable in the relevant methods.(œíÂÊ8±ùŞ¥õ1
-q
-java:S1450"TRemove the "query" field and declare it as a local variable in the relevant methods.(Ëªé¶8±ùŞ¥õ1
-a
-java:S2147"DCombine this catch with the one at line 27, which has the same body.(…‰”Ï8¹ùŞ¥õ1
+Œ
+java:S2147"DCombine this catch with the one at line 29, which has the same body.(±Ÿ—±ÿÿÿÿÿ8¶®„Ôü1J$23d9381b-6042-41b6-a757-b6154d225ca4
+Œ
+java:S21478"DCombine this catch with the one at line 54, which has the same body.(±Ÿ—±ÿÿÿÿÿ8¾®„Ôü1J$e860b2eb-e7ce-4d98-a111-918b1db760a0
+s
+java:S1128"0Remove this unused import 'java.sql.Connection'.(¥ËôÖ8šÙÔü1J$acd618e0-9f1e-40ba-a190-58c23b5efb94

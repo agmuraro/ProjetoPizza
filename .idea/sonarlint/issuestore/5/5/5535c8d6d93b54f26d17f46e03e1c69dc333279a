@@ -1,7 +1,7 @@
 
 Ü
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.( ªƒ®8æ×……õ1J$5c825229-c7b6-45f2-babd-bf0c10fb1247
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.( ªƒ®8æ×……õ1J$8e4cb116-38ad-4200-ac93-a85fbef0a9f5
 ‡
-java:S2147"DCombine this catch with the one at line 24, which has the same body.(û¹§Ï8ÐËû„õ1J$c7edf439-121d-441b-a8b4-8dae9df00555
-‡
-java:S2147"DCombine this catch with the one at line 27, which has the same body.(…‰”Ï8ÐËû„õ1J$b8350be3-625d-4269-8e49-94e7b2d39b03
+java:S2147"DCombine this catch with the one at line 22, which has the same body.(À‹ø„8Ö­„Ôü1J$d988bd78-16ff-4561-a831-48c40a7142b1
+Œ
+java:S2147"DCombine this catch with the one at line 24, which has the same body.(±Ÿ—±ÿÿÿÿÿ8Ö­„Ôü1J$ec873da4-a096-4fd7-8dd0-b69651cedc83

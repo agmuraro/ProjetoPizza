@@ -1,10 +1,11 @@
 
-m	java:S106"+Replace this use of System.out by a logger.(ÛÎ†·8½¤Òüô1J$8e2e957b-c886-4fa7-be60-6104f0ddca58
-r	java:S106"+Replace this use of System.out by a logger.(˜¸íÄøÿÿÿÿ8ƒÂÔüô1J$ac727381-5c15-46fb-a8ba-07666722eb38
-m	java:S106"+Replace this use of System.out by a logger.(âÊÙ¾8×ôÔüô1J$11af3f32-5b76-472f-a917-74d0b1e76a40
-r	java:S106"+Replace this use of System.out by a logger.(àÀÈ¶ÿÿÿÿÿ8ûÉ×üô1J$40b6e5c4-9538-4a3a-b513-d817372c540f
-m	java:S106"+Replace this use of System.out by a logger.(’é â8î¯Üüô1J$c0ea4d7c-8505-4ae7-abdb-ea0b1584119a
-l	java:S106"+Replace this use of System.out by a logger.(øã¢.8§›ßüô1J$b1615666-7381-49a7-8b51-9717b16ba7d4
-r	java:S106"+Replace this use of System.out by a logger.(ï†Éÿÿÿÿÿÿ8ŠÒæüô1J$e8978228-02ec-45ae-9813-ec7c47c9f8b2
-L	java:S106"+Replace this use of System.out by a logger.(ìÂ”¢ıÿÿÿÿ8ˆù ÷1
-L	java:S106"+Replace this use of System.out by a logger.(Şš¶Ûıÿÿÿÿ8ˆù ÷1
+m	java:S106"+Replace this use of System.out by a logger.(ÛÎ†·8®„Ôü1J$4687bbb8-a66b-4f1e-8cf7-744c25f9d0fa
+r	java:S106"+Replace this use of System.out by a logger.(˜¸íÄøÿÿÿÿ8®„Ôü1J$46255494-49ce-45f3-8cf3-29d8e3d77443
+m	java:S106"+Replace this use of System.out by a logger.(âÊÙ¾8®„Ôü1J$14ca4ddd-1a48-4649-a740-88666c33c08f
+r	java:S106"+Replace this use of System.out by a logger.(àÀÈ¶ÿÿÿÿÿ8®„Ôü1J$394e3583-5af2-49b8-9f1d-9cfb9541114f
+r	java:S106"+Replace this use of System.out by a logger.(Åˆ¼Êşÿÿÿÿ8®„Ôü1J$d44e4aa7-c4c8-4439-93b8-dd6be5c80624
+r	java:S106"+Replace this use of System.out by a logger.(’ãº“ùÿÿÿÿ8®„Ôü1J$9acb36c5-94a4-4629-9c04-51b38fcc7552
+l	java:S106"+Replace this use of System.out by a logger.(øã¢.8®„Ôü1J$8ad5085c-f530-4544-b68b-d0f65082a20b
+m	java:S106"+Replace this use of System.out by a logger.(òï‰Õ8®„Ôü1J$bba4f35a-e7e9-4134-b8ab-05bbafcea04d
+r	java:S106"+Replace this use of System.out by a logger.(ìÂ”¢ıÿÿÿÿ8™ÄÅÕü1J$e3258411-4500-44ce-8716-a122ff1c7406
+r	java:S106"+Replace this use of System.out by a logger.(Şš¶Ûıÿÿÿÿ8˜ğ¶Öü1J$7714f24c-fc85-45f1-9172-bdbbab70f335
