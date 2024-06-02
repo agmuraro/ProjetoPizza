@@ -1,63 +1,34 @@
 package dao;
 
+import com.amazonaws.services.cognitoidp.AWSCognitoIdentityProvider;
+import com.amazonaws.services.cognitoidp.model.AdminCreateUserRequest;
+import com.amazonaws.services.cognitoidp.model.AdminCreateUserResult;
+import com.amazonaws.services.cognitoidp.model.AttributeType;
+import com.amazonaws.services.cognitoidp.model.AuthFlowType;
+import com.amazonaws.services.cognitoidp.model.AuthenticationResultType;
+import com.amazonaws.services.cognitoidp.model.InitiateAuthRequest;
+import com.amazonaws.services.cognitoidp.model.InitiateAuthResult;
 import model.Usuario;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.util.HashMap;
+import java.util.Map;
 
 public class UsuarioDAO {
 
-    private Conexao conexao;
-    private String query;
-    private PreparedStatement ps;
-
-    public UsuarioDAO() {
-        this.conexao = Conexao.getInstancia();
-    }
-
-    public void inserir(Usuario usuario) {
+    public void cadastrarUsuarioCognito(Usuario usuario) {
         try {
-            this.query = "INSERT INTO usuario (nome, cpf, senha) VALUES (?,?,?)";
-            this.ps = conexao.getConnection().prepareStatement(this.query);
-            this.ps.setString(1, usuario.getNome());
-            this.ps.setString(2, usuario.getCpf());
-            this.ps.setString(3, usuario.getSenha());
-            this.ps.executeUpdate();
-            this.ps.close();
-        } catch (SQLException ex) {
-            ex.printStackTrace();
-        } catch (Exception ex) {
-            ex.printStackTrace();
-        }
-    }
+            AWSCognitoIdentityProvider conexao = ConexaoCognito.getCognitoClient();
 
-    public Usuario login(String cpf, String senha) {
-        Usuario usuario = null;
-        try {
-            this.query = "SELECT * FROM usuario WHERE cpf = ? AND senha = ?";
-            this.ps = conexao.getConnection().prepareStatement(this.query);
-            ps.setString(1, cpf);
-            ps.setString(2, senha);
-            ResultSet rs = ps.executeQuery();
+            AdminCreateUserRequest createUserRequest = new AdminCreateUserRequest()
+                    .withUserPoolId(ConexaoCognito.USER_POOL_ID)
+                    .withUsername(usuario.getEmail())
+                    .withUserAttributes(new AttributeType().withName("email").withValue(usuario.getEmail()))
+                    .withTemporaryPassword(usuario.getSenha());
 
-            if (rs.next()) {
-                usuario = new Usuario();
-                usuario.setNome(rs.getString("nome"));
-                usuario.setCpf(rs.getString("cpf"));
-                usuario.setSenha(rs.getString("senha"));
-            }
+            AdminCreateUserResult createUserResult = conexao.adminCreateUser(createUserRequest);
 
-            rs.close();
-            ps.close();
-        } catch (SQLException ex) {
-            ex.printStackTrace();
-        } catch (Exception ex) {
-            ex.printStackTrace();
+        } catch (Exception e) {
+            e.getMessage();
         }
 
-        return usuario;
-    }
-}
-
+    }}

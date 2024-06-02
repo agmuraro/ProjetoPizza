@@ -1,9 +1,7 @@
 
-m
-java:S1068"*Remove this unused "cduser" private field.(Ô¼­º8ëÈËÙü1J$24798e92-0700-43a4-8ab6-744ff7da606c
-j
-java:S1068"'Remove this unused "cpc" private field.(ø¶•¶8ìÈËÙü1J$fafdb8c4-ad0f-4b53-91d6-9d36fb97327e
-o
-java:S1068	"'Remove this unused "fpc" private field.(§×â•ûÿÿÿÿ8ìÈËÙü1J$8a381290-6161-41df-b2f7-736b75f5a73b
-n
-java:S1068"+Remove this unused "scanner" private field.(Ù‘Ğ8ìÈËÙü1J$fc9727ff-950e-48df-92f0-ce6e80687273
+D
+java:S1068"'Remove this unused "cpc" private field.(ø¶•¶8èÿÒ³ı1
+I
+java:S1068	"'Remove this unused "fpc" private field.(§×â•ûÿÿÿÿ8øÿÒ³ı1
+H
+java:S1068"+Remove this unused "scanner" private field.(Ù‘Ğ8ùÿÒ³ı1
