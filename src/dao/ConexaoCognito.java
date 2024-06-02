@@ -9,7 +9,7 @@ import com.amazonaws.services.cognitoidp.AWSCognitoIdentityProviderClientBuilder
 public class ConexaoCognito {
 
     public static final String ACCESS_KEY = "AKIA6GBMG63LMTC3RYN5";
-    public static final String SECRET_KEY = "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";
+    public static final String SECRET_KEY = "";
     public static final String USER_POOL_ID = "us-east-2_OlLMO3r7a";
     public static final String CLIENT_ID = "2clabuec7sgupmu0jg52vcpo77";
 
