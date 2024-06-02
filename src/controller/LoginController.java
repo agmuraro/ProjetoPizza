@@ -20,7 +20,7 @@ public class LoginController {
         lgview.exibirLogin();
     }
 
-    public Usuario autenticar(String cpf, String senha) {
-        return usuarioDAO.login(cpf, senha);
+    public void autenticar() {
+        System.out.println("");
     }
 }

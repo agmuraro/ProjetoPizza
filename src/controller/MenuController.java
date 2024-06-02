@@ -23,6 +23,7 @@ public class MenuController {
 
             if (this.opcao == 1) {
                 this.cduser = new CadastrarUsuarioController(scanner);
+                cduser.cadastrar();
             } else if (this.opcao == 2) {
                 lguser.realizarLogin(scanner);
             } else if (this.opcao == 3) {

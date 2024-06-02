@@ -1,14 +1,12 @@
 
-<<<<<<< HEAD
-m	java:S106"+Replace this use of System.out by a logger.(Äá‚8©çãû1J$bae118cb-7832-447c-943b-f1e225e32754
-m	java:S106"+Replace this use of System.out by a logger.(ùÒ“›8©çãû1J$ab50a0cd-3147-4474-92c1-63c8384a5918
-m	java:S106"+Replace this use of System.out by a logger.(óùÜ8 ©çãû1J$1b926394-c85b-4a62-b8f3-c8d1693d7fca
-r	java:S106"+Replace this use of System.out by a logger.(Ê©„éüÿÿÿÿ8¡©çãû1J$87c2decc-9104-4521-9039-555c99b4b98c
-m	java:S106"+Replace this use of System.out by a logger.(‹¶âö8¢©çãû1J$a5b7bfce-4f41-4673-aff1-a909bc1c3964
-=======
-G	java:S106"+Replace this use of System.out by a logger.(Äá‚8©çãû1
-G	java:S106"+Replace this use of System.out by a logger.(ùÒ“›8©çãû1
-G	java:S106"+Replace this use of System.out by a logger.(óùÜ8 ©çãû1
-L	java:S106"+Replace this use of System.out by a logger.(Ê©„éüÿÿÿÿ8¡©çãû1
-G	java:S106"+Replace this use of System.out by a logger.(‹¶âö8¢©çãû1
->>>>>>> 750d09a29c70c207c2b4665eca20d9ad946667cf
+m	java:S106"+Replace this use of System.out by a logger.(Äá‚8¥î­ı1J$1aca91c8-dac1-464d-9e82-e97dcc0eff85
+m	java:S106"+Replace this use of System.out by a logger.(ùÒ“›8¥î­ı1J$9d9dd41b-47dc-4e43-a051-975ec84e9109
+j
+java:S1481"(Remove this unused "cpf" local variable.(Ò£í}8¥í÷±ı1J$8450d6dc-568d-42f3-ae3a-2b33e789463a
+m	java:S106"+Replace this use of System.out by a logger.(óùÜ8¥î­ı1J$a41267f3-3694-4e32-a7e0-7c61a8beff49
+r
+java:S1481"*Remove this unused "senha" local variable.(ì Ü¼ûÿÿÿÿ8¥í÷±ı1J$c5136496-47b1-4d09-9b69-04e7d05ee851
+r
+java:S1128"*Remove this unused import 'model.Usuario'.(¬îÕ£üÿÿÿÿ8•ıø±ı1J$fe4c16a3-7d8b-44ff-8941-f4c8f68a614d
+i
+java:S1068"'Remove this unused "lgc" private field.(——“+8‹Óø±ı1J$67bf8e68-a45a-4d32-97d9-346e69414143

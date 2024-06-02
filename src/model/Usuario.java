@@ -4,12 +4,12 @@ public class Usuario {
 
     private String nome;
     private String senha;
-    private String cpf;
+    private String email;
 
-    public Usuario(String nome, String senha, String cpf) {
+    public Usuario(String nome, String senha, String email  ) {
         this.nome = nome;
         this.senha = senha;
-        this.cpf = cpf;
+        this.email = email;
     }
 
     public Usuario() {
@@ -24,12 +24,12 @@ public class Usuario {
         this.nome = nome;
     }
 
-    public String getCpf() {
-        return cpf;
+    public String getEmail() {
+        return email;
     }
 
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
+    public void setEmail(String email) {
+        this.email = Usuario.this.email;
     }
 
 

@@ -14,6 +14,14 @@ public class CadastrarUsuarioController {
         this.cdview = new CadastrarUsuarioView(scanner);
         this.usuario = this.cdview.cadastrar();
         this.uDAO = new UsuarioDAO();
-        this.uDAO.inserir(this.usuario);
+    }
+   public void cadastrar(){
+        try{
+        uDAO.cadastrarUsuarioCognito(this.usuario);
+        cdview.sucesso();
+
+   } catch (Exception e) {
+            cdview.falha();
+        }
     }
 }
