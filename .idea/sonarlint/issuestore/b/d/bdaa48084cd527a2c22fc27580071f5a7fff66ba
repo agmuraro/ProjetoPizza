@@ -1,10 +1,12 @@
 
-t
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(©”ï¥ıÿÿÿÿ8¨Êëöı1
-L	java:S106""+Replace this use of System.out by a logger.(…§ÅÅşÿÿÿÿ8´Êëöı1
+ 	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(¢œàçÿÿÿÿÿ8úş‚ş1J$2f12ada1-c8b7-4912-b8b9-1dd279c6ed4c
+š
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(©”ï¥ıÿÿÿÿ8òÿ‚ş1J$d31b0af8-5f47-49ba-aebe-950f993520dd
+x
+java:S1751%"5Remove this "break" statement or make it conditional.(›ûä·8òÿ‚ş1J$5a1dc93a-4d84-4aab-80ec-3004b04dfe5e
 j
-java:S1068"'Remove this unused "cpc" private field.(ø¶•¶8ìÈËÙü1J$437de3ae-49fd-411b-ad01-033257e65fed
+java:S1068"'Remove this unused "cpc" private field.(ø¶•¶8òÿ‚ş1J$8dd72ae4-a4d7-4ca9-aa0a-cc0ce99b0cd7
 o
-java:S1068	"'Remove this unused "fpc" private field.(§×â•ûÿÿÿÿ8ìÈËÙü1J$61ef6df9-7e66-4808-90b4-e92ed8d964bc
+java:S1068	"'Remove this unused "fpc" private field.(§×â•ûÿÿÿÿ8òÿ‚ş1J$c5a0b6be-ab90-4a1b-bab8-09d0822066c7
 n
-java:S1068"+Remove this unused "scanner" private field.(Ù‘Ğ8ìÈËÙü1J$3a262176-f8b3-4bf6-8043-d6606c1d57cd
+java:S1068"+Remove this unused "scanner" private field.(Ù‘Ğ8òÿ‚ş1J$19c9ad99-b552-4262-b279-be354badfc80

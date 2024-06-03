@@ -1,9 +1,9 @@
 
-m	java:S106
-"+Replace this use of System.out by a logger.(ØÙÒİ8ŠöÙü1J$b074fdcd-c67d-4acb-9f5c-5a67eca08c96
-‡
-java:S2147"DCombine this catch with the one at line 19, which has the same body.(…‰”Ï8ÕØ‘Ùü1J$6380e630-3155-443f-98a5-f0e764b2951f
-m	java:S106"+Replace this use of System.out by a logger.(ÃÈØ8­Å“Ùü1J$53a9c1c0-fe04-47f1-9a19-a2ca7813cb15
-m	java:S106"+Replace this use of System.out by a logger.(¶ïœŠ8ÏÏ•Ùü1J$6af23e07-0a87-467f-a8c7-604f57203ab8
-‡
-java:S1128"DRemove this unused import 'java.util.concurrent.ExecutionException'.(¡£ØÍ8‚ò”Ùü1J$6c50065f-5c09-4541-a1ee-ccebf9a53530
+f	java:S106
+"+Replace this use of System.out by a logger.(ØÙÒİJ$a40187e9-30d3-49e6-8b21-930405393ab6
+€
+java:S2147"DCombine this catch with the one at line 19, which has the same body.(…‰”ÏJ$073f35aa-33d4-4d23-8276-c1b0915acddd
+f	java:S106"+Replace this use of System.out by a logger.(ÃÈØJ$eb3f9307-0097-44cf-ad30-dd3f080fdffc
+f	java:S106"+Replace this use of System.out by a logger.(¶ïœŠJ$18aa2630-b45d-4d90-85b2-7facd1cccc39
+€
+java:S1128"DRemove this unused import 'java.util.concurrent.ExecutionException'.(¡£ØÍJ$b9b75514-572c-4185-8241-d1e6081742d8

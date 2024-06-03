@@ -25,11 +25,26 @@ public class MenuView {
         System.out.println("\n--- PIZZARIA ---");
         System.out.println("(1) Fazer pedido");
         System.out.println("(2) Listar pizzas");
+        System.out.println("(9) Voltar");
+        System.out.print("Opção: ");
+        int opcaop = scanner.nextInt();
+        scanner.nextLine();
+        return opcaop;
+    }
+
+    public int menuEscolha(){
+        System.out.println("\n --- PIZZARIA ---");
+        System.out.println("Qual será o número do seu pedido?");
         System.out.println("(9) Sair");
         System.out.print("Opção: ");
         int opcaop = scanner.nextInt();
         scanner.nextLine();
         return opcaop;
+    }
+
+    public void confirmaPedido(){
+        System.out.println("\n --- PIZZARIA ---");
+        System.out.println("Confirmado! Seu pedido está sendo preparado.");
     }
 
     public void sair(){

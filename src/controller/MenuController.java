@@ -14,6 +14,7 @@ public class MenuController {
     private int opcaoc;
     private int opcaop;
 
+
     public MenuController(Scanner scanner) {
         this.scanner = scanner;
         this.mv = new MenuView(scanner);
@@ -27,11 +28,14 @@ public class MenuController {
                 cduser.cadastrar();
             } else if (this.opcaoc == 2) {
                 lguser.realizarLogin(scanner);
-
                 while (this.opcaop != 9){
                     this.opcaop = this.mv.menuPedido();
                         if (this.opcaop == 1 ){
-                            System.out.println("goku");
+                            this.opcaop = this.mv.menuEscolha();
+                            while(this.opcaop != 9) {
+                                mv.confirmaPedido();
+                                break;
+                            }
                         }
                         else if (this.opcaop == 2){
                             this.fpc = new FazerPedidoController();
@@ -39,9 +43,12 @@ public class MenuController {
                         }
                         else if (this.opcaop == 9){
                             this.mv.sair();
+                            break;
                         }
-
-
+                        if(opcaop == 9){
+                            mv.sair();
+                            break;
+                        }
                 }
             } else if (this.opcaoc == 3) {
                 this.fpc = new FazerPedidoController();

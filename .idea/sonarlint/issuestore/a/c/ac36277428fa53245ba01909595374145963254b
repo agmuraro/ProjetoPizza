@@ -1,8 +1,8 @@
 
-r	java:S106"+Replace this use of System.out by a logger.(Ó†ÏĞıÿÿÿÿ8İÏ£õı1J$f1b82bef-cdeb-4c5b-b452-50f4d6940fd5
-m	java:S106"+Replace this use of System.out by a logger.(¦²…¼8ìÏ£õı1J$c19d1521-5654-4535-827d-6d8571a7e41d
-m	java:S106"+Replace this use of System.out by a logger.(óùÜ8ìÏ£õı1J$9d7b1feb-4a31-4d4a-8f62-e187eaf6d0ff
-r	java:S106"+Replace this use of System.out by a logger.(×«ïøùÿÿÿÿ8ìÏ£õı1J$5df6b58d-2e64-422d-b3a2-dde67202bd5d
-m	java:S106"+Replace this use of System.out by a logger.(Œ®úŠ8ìÏ£õı1J$6bdd83ac-0d9c-4354-8521-6afe3915da85
+r	java:S106"+Replace this use of System.out by a logger.(Ó†ÏĞıÿÿÿÿ8İÏ£õı1J$63116f21-99fb-4f7f-89c4-0866107ba425
+m	java:S106"+Replace this use of System.out by a logger.(¦²…¼8ìÏ£õı1J$ac8c678e-bde2-468a-9756-ed4315f0b5a4
+m	java:S106"+Replace this use of System.out by a logger.(óùÜ8ìÏ£õı1J$c77a5f79-c6ae-41ae-ba23-c22dbf6395c3
+r	java:S106"+Replace this use of System.out by a logger.(×«ïøùÿÿÿÿ8ìÏ£õı1J$9e07dca6-ab00-4e62-9e47-3e4fe9350dae
+m	java:S106"+Replace this use of System.out by a logger.(Œ®úŠ8ìÏ£õı1J$395b7f9a-2ca4-4022-942a-a984a60d66f9
 i
-java:S1068"'Remove this unused "lgc" private field.(——“+8ìÏ£õı1J$12394861-fc9a-4bcb-8799-aee56bfaebc3
+java:S1068"'Remove this unused "lgc" private field.(——“+8ìÏ£õı1J$2924556f-cab2-4c06-9c3c-233b520575ad

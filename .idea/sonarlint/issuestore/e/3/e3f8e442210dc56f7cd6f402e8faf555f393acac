@@ -1,5 +1,9 @@
 
+Œ
+java:S1854"DRemove this useless assignment to local variable "createUserResult".(ª¹™Ýýÿÿÿÿ8®ý—÷ý1J$2af6fee1-0434-42dc-9884-f3fa012b7d8d
+‘
+java:S1854"IRemove this useless assignment to local variable "setUserPasswordResult".(ñæ¾úÿÿÿÿÿ8®ý—÷ý1J$5041ee90-0809-4033-8a63-1a4303fd64c9
 }
-java:S1481"5Remove this unused "createUserResult" local variable.(ª¹™Ýýÿÿÿÿ8çÐ–ôý1J$638f3c50-3bfd-4e2b-bc23-d0edf82aa472
+java:S1481"5Remove this unused "createUserResult" local variable.(ª¹™Ýýÿÿÿÿ8çÐ–ôý1J$fa8e46d9-abd1-4292-b67a-adc1acc76cd9
 ‚
-java:S1481":Remove this unused "setUserPasswordResult" local variable.(ñæ¾úÿÿÿÿÿ8êÐ–ôý1J$28122d95-55e9-4c14-89c1-42545169fee4
+java:S1481":Remove this unused "setUserPasswordResult" local variable.(ñæ¾úÿÿÿÿÿ8êÐ–ôý1J$81aa484d-7159-4f68-95a0-c6a41f471309
