@@ -1,9 +1,10 @@
 
-m
-java:S1068"*Remove this unused "cduser" private field.(Ô¼­º8ëÈËÙü1J$24798e92-0700-43a4-8ab6-744ff7da606c
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(©”ï¥ıÿÿÿÿ8¨Êëöı1
+L	java:S106""+Replace this use of System.out by a logger.(…§ÅÅşÿÿÿÿ8´Êëöı1
 j
-java:S1068"'Remove this unused "cpc" private field.(ø¶•¶8ìÈËÙü1J$fafdb8c4-ad0f-4b53-91d6-9d36fb97327e
+java:S1068"'Remove this unused "cpc" private field.(ø¶•¶8ìÈËÙü1J$437de3ae-49fd-411b-ad01-033257e65fed
 o
-java:S1068	"'Remove this unused "fpc" private field.(§×â•ûÿÿÿÿ8ìÈËÙü1J$8a381290-6161-41df-b2f7-736b75f5a73b
+java:S1068	"'Remove this unused "fpc" private field.(§×â•ûÿÿÿÿ8ìÈËÙü1J$61ef6df9-7e66-4808-90b4-e92ed8d964bc
 n
-java:S1068"+Remove this unused "scanner" private field.(Ù‘Ğ8ìÈËÙü1J$fc9727ff-950e-48df-92f0-ce6e80687273
+java:S1068"+Remove this unused "scanner" private field.(Ù‘Ğ8ìÈËÙü1J$3a262176-f8b3-4bf6-8043-d6606c1d57cd

@@ -13,21 +13,21 @@ public class LoginView {
         this.scanner = scanner;
     }
 
-    public void exibirLogin() {
-        System.out.println("-------LOGIN--------");
+    public Usuario exibirLogin() {
+        System.out.println("\n-------LOGIN--------");
 
-        System.out.print("Digite seu CPF: ");
-        String cpf = scanner.nextLine();
+        System.out.print("Digite seu e-mail: ");
+        String email = scanner.nextLine();
 
         System.out.print("Digite sua senha: ");
         String senha = scanner.nextLine();
 
-        Usuario usuario = lgc.autenticar(cpf, senha);
+        return new Usuario(senha, email);
 
-        if (usuario != null) {
-            System.out.println("Login realizado, " + usuario.getNome());
-        } else {
-            System.out.println("Erro no login, informações incorretas.");
-        }
+    }
+    public void loginSucesso(){
+        System.out.println("\nLogin realizado com sucesso.");
+    }public void loginFalha(){
+        System.out.println("\nFalha ao realizar login, usuário não encontrado.");
     }
 }

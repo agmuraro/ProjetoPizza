@@ -11,25 +11,43 @@ public class MenuController {
     private LoginController lguser;
     private MenuView mv;
     private Scanner scanner;
-    private int opcao;
+    private int opcaoc;
+    private int opcaop;
 
     public MenuController(Scanner scanner) {
         this.scanner = scanner;
         this.mv = new MenuView(scanner);
         this.lguser = new LoginController();
 
-        while (this.opcao != 9) {
-            this.opcao = this.mv.menu();
+        while (this.opcaoc != 9) {
+            this.opcaoc = this.mv.menuCadastro();
 
-            if (this.opcao == 1) {
+            if (this.opcaoc == 1) {
                 this.cduser = new CadastrarUsuarioController(scanner);
-            } else if (this.opcao == 2) {
+                cduser.cadastrar();
+            } else if (this.opcaoc == 2) {
                 lguser.realizarLogin(scanner);
-            } else if (this.opcao == 3) {
+
+                while (this.opcaop != 9){
+                    this.opcaop = this.mv.menuPedido();
+                        if (this.opcaop == 1 ){
+                            System.out.println("goku");
+                        }
+                        else if (this.opcaop == 2){
+                            this.fpc = new FazerPedidoController();
+
+                        }
+                        else if (this.opcaop == 9){
+                            this.mv.sair();
+                        }
+
+
+                }
+            } else if (this.opcaoc == 3) {
                 this.fpc = new FazerPedidoController();
-            } else if (this.opcao == 4) {
+            } else if (this.opcaoc == 4) {
                 this.cpc = new CadastrarPizzaController();
-            } else if (this.opcao == 9) {
+            } else if (this.opcaoc == 9) {
                 this.mv.sair();
             } else {
                 this.mv.opcaoInvalida();

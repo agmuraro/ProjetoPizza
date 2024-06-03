@@ -1,15 +1,5 @@
 
-Œ
-<<<<<<< HEAD
-java:S2147"DCombine this catch with the one at line 29, which has the same body.(±Ÿ—±ÿÿÿÿÿ8¶®„Ôü1J$23d9381b-6042-41b6-a757-b6154d225ca4
-Œ
-java:S21478"DCombine this catch with the one at line 54, which has the same body.(±Ÿ—±ÿÿÿÿÿ8¾®„Ôü1J$e860b2eb-e7ce-4d98-a111-918b1db760a0
-s
-java:S1128"0Remove this unused import 'java.sql.Connection'.(¥ËôÖ8šÙžÔü1J$acd618e0-9f1e-40ba-a190-58c23b5efb94
-=======
-java:S2147"DCombine this catch with the one at line 29, which has the same body.(±Ÿ—±ÿÿÿÿÿ8È¥óáû1J$060e37c5-5cf2-42c4-b701-7692dbc6a4c8
-Œ
-java:S21478"DCombine this catch with the one at line 54, which has the same body.(±Ÿ—±ÿÿÿÿÿ8È¥óáû1J$2e61b70d-b759-4468-a9f8-adf37b3f82a3
-s
-java:S1128"0Remove this unused import 'java.sql.Connection'.(¥ËôÖ8ëž‰ãû1J$244bab71-52da-48af-8a47-45023fc7c570
->>>>>>> 750d09a29c70c207c2b4665eca20d9ad946667cf
+}
+java:S1481"5Remove this unused "createUserResult" local variable.(ª¹™Ýýÿÿÿÿ8çÐ–ôý1J$638f3c50-3bfd-4e2b-bc23-d0edf82aa472
+‚
+java:S1481":Remove this unused "setUserPasswordResult" local variable.(ñæ¾úÿÿÿÿÿ8êÐ–ôý1J$28122d95-55e9-4c14-89c1-42545169fee4

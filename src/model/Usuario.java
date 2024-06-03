@@ -2,34 +2,25 @@ package model;
 
 public class Usuario {
 
-    private String nome;
-    private String senha;
-    private String cpf;
 
-    public Usuario(String nome, String senha, String cpf) {
-        this.nome = nome;
+    private String senha;
+    private String email;
+
+    public Usuario(String senha, String email  ) {
         this.senha = senha;
-        this.cpf = cpf;
+        this.email = email;
     }
 
     public Usuario() {
 
     }
 
-    public String getNome() {
-        return nome;
+    public String getEmail() {
+        return email;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public String getCpf() {
-        return cpf;
-    }
-
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
+    public void setEmail(String email) {
+        this.email = Usuario.this.email;
     }
 
 

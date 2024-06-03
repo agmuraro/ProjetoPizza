@@ -1,63 +1,64 @@
 package dao;
 
+import com.amazonaws.services.cognitoidp.AWSCognitoIdentityProvider;
+import com.amazonaws.services.cognitoidp.model.*;
 import model.Usuario;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.util.HashMap;
+import java.util.Map;
 
 public class UsuarioDAO {
 
-    private Conexao conexao;
-    private String query;
-    private PreparedStatement ps;
-
-    public UsuarioDAO() {
-        this.conexao = Conexao.getInstancia();
-    }
-
-    public void inserir(Usuario usuario) {
+    public void cadastrarUsuarioCognito(Usuario usuario) {
         try {
-            this.query = "INSERT INTO usuario (nome, cpf, senha) VALUES (?,?,?)";
-            this.ps = conexao.getConnection().prepareStatement(this.query);
-            this.ps.setString(1, usuario.getNome());
-            this.ps.setString(2, usuario.getCpf());
-            this.ps.setString(3, usuario.getSenha());
-            this.ps.executeUpdate();
-            this.ps.close();
-        } catch (SQLException ex) {
-            ex.printStackTrace();
-        } catch (Exception ex) {
-            ex.printStackTrace();
-        }
-    }
+            AWSCognitoIdentityProvider conexao = ConexaoCognito.getCognitoClient();
 
-    public Usuario login(String cpf, String senha) {
-        Usuario usuario = null;
-        try {
-            this.query = "SELECT * FROM usuario WHERE cpf = ? AND senha = ?";
-            this.ps = conexao.getConnection().prepareStatement(this.query);
-            ps.setString(1, cpf);
-            ps.setString(2, senha);
-            ResultSet rs = ps.executeQuery();
+            AdminCreateUserRequest createUserRequest = new AdminCreateUserRequest()
+                    .withUserPoolId(ConexaoCognito.USER_POOL_ID)
+                    .withUsername(usuario.getEmail())
+                    .withUserAttributes(new AttributeType().withName("email").withValue(usuario.getEmail()))
+                    .withTemporaryPassword(usuario.getSenha());
 
-            if (rs.next()) {
-                usuario = new Usuario();
-                usuario.setNome(rs.getString("nome"));
-                usuario.setCpf(rs.getString("cpf"));
-                usuario.setSenha(rs.getString("senha"));
-            }
 
-            rs.close();
-            ps.close();
-        } catch (SQLException ex) {
-            ex.printStackTrace();
-        } catch (Exception ex) {
-            ex.printStackTrace();
+            AdminCreateUserResult createUserResult = conexao.adminCreateUser(createUserRequest);
+
+            AdminSetUserPasswordRequest setUserPasswordRequest = new AdminSetUserPasswordRequest()
+                    .withUserPoolId(ConexaoCognito.USER_POOL_ID)
+                    .withUsername(usuario.getEmail())
+                    .withPassword(usuario.getSenha())
+                    .withPermanent(true);
+
+            AdminSetUserPasswordResult setUserPasswordResult = conexao.adminSetUserPassword(setUserPasswordRequest);
+
+        } catch (Exception e) {
+            e.getMessage();
         }
 
-        return usuario;
+    }
+
+
+    public AuthenticationResultType autenticarCognito(String email, String password) {
+        try {
+            AWSCognitoIdentityProvider conexao = ConexaoCognito.getCognitoClient();
+
+            Map<String, String> authParams = new HashMap<>();
+            authParams.put("USERNAME", email);
+            authParams.put("PASSWORD", password);
+
+            InitiateAuthRequest authRequest = new InitiateAuthRequest()
+                    .withAuthFlow(AuthFlowType.USER_PASSWORD_AUTH)
+                    .withClientId(ConexaoCognito.CLIENT_ID)
+                    .withAuthParameters(authParams);
+
+            InitiateAuthResult resultado = conexao.initiateAuth(authRequest);
+
+            return resultado.getAuthenticationResult();
+        } catch (UserNotFoundException e) {
+            e.getErrorMessage();
+            return null;
+        } catch (Exception e) {
+            e.getMessage();
+            return null;
+        }
     }
 }
-
