@@ -1,6 +1,2 @@
 
-r	java:S106"+Replace this use of System.out by a logger.(ŞÒ—üÿÿÿÿ8‰Ğö±ı1J$0a523f5f-3658-40da-904c-d878882e8f56
-r
-java:S1128"*Remove this unused import 'model.Usuario'.(¬îÕ£üÿÿÿÿ8¿§Ö³ı1J$89e07d9b-b85c-447c-96df-ad0b74bdab10
-v
-java:S1068	".Remove this unused "usuarioDAO" private field.(÷³Áüÿÿÿÿ8ŒĞö±ı1J$76b6689b-cded-42e1-b6d9-d9c3b2787b08
+G	java:S106"+Replace this use of System.out by a logger.(¹ĞÁ™8†ö±×ı1

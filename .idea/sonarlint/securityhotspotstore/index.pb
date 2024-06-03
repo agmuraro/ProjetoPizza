@@ -25,3 +25,5 @@ E
 src/dao/PizzaDAO.java,f\6\f616bbc5b0b6673cf17d8b80febe7fde1cebb5a3
 Y
 )src/controller/FazerPedidoController.java,0\b\0b371bbee88ff4b69dffcff01db1cf35f1b7fa71
+F
+src/view/MenuView.java,5\7\57f97a920b2e9fc508b70ea3471e468e3a61ad8d

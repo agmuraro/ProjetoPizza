@@ -9,18 +9,27 @@ public class MenuView {
         this.scanner = scanner;
     }
 
-    public int menu(){
+    public int menuCadastro(){
         System.out.println("--- PIZZARIA ---");
         System.out.println("É necessário cadastro para fazer um pedido!");
-        System.out.println("(1) Cadastrar usuário");
+        System.out.println("(1) Cadastrar-se");
         System.out.println("(2) Entrar");
-        System.out.println("(3) Fazer pedido");
-        System.out.println("(4) Cadastrar pizza");
         System.out.println("(9) Sair");
         System.out.print("Opção: ");
-        int opcao = scanner.nextInt();
+        int opcaoc = scanner.nextInt();
         scanner.nextLine();
-        return opcao;
+        return opcaoc;
+    }
+
+    public int menuPedido(){
+        System.out.println("--- PIZZARIA ---");
+        System.out.println("(1) Fazer pedido");
+        System.out.println("(2) Listar pizzas");
+        System.out.println("(9) Sair");
+        System.out.print("Opção: ");
+        int opcaop = scanner.nextInt();
+        scanner.nextLine();
+        return opcaop;
     }
 
     public void sair(){
