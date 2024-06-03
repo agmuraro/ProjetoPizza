@@ -1,10 +1,10 @@
 
-J	java:S108!")Either remove or fill this block of code.(¢œàçÿÿÿÿÿ8˜ÉÙÑı1
-D
-java:S1068"'Remove this unused "cpc" private field.(ø¶•¶8ŸÉÙÑı1
-I
-java:S1068	"'Remove this unused "fpc" private field.(§×â•ûÿÿÿÿ8ŸÉÙÑı1
-H
-java:S1068"+Remove this unused "scanner" private field.(Ù‘Ğ8ŸÉÙÑı1
-O
-java:S1068"2Remove this unused "resultadoLogin" private field.(øûß„8ŸÉÙÑı1
+š
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(©”ï¥ıÿÿÿÿ8³‘úõı1J$8c74c6a0-3d71-4658-a993-fe30c9694156
+r	java:S106""+Replace this use of System.out by a logger.(…§ÅÅşÿÿÿÿ8³‘úõı1J$99753289-ee3d-475d-8e33-d9315130c52b
+j
+java:S1068"'Remove this unused "cpc" private field.(ø¶•¶8Ã‘úõı1J$7f73e3b4-296d-49e1-a582-b33532de9e12
+o
+java:S1068	"'Remove this unused "fpc" private field.(§×â•ûÿÿÿÿ8Ã‘úõı1J$dea48e61-096b-4445-8c92-78442cc9a1af
+n
+java:S1068"+Remove this unused "scanner" private field.(Ù‘Ğ8Ã‘úõı1J$e828cf0a-0c6d-42f2-b773-eb469af62d19

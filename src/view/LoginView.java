@@ -13,8 +13,8 @@ public class LoginView {
         this.scanner = scanner;
     }
 
-    public void exibirLogin() {
-        System.out.println("-------LOGIN--------");
+    public Usuario exibirLogin() {
+        System.out.println("\n-------LOGIN--------");
 
         System.out.print("Digite seu e-mail: ");
         String email = scanner.nextLine();
@@ -22,12 +22,12 @@ public class LoginView {
         System.out.print("Digite sua senha: ");
         String senha = scanner.nextLine();
 
-        lgc.autenticarLogin(email, senha);
+        return new Usuario(senha, email);
 
     }
     public void loginSucesso(){
-        System.out.println("Login realizado com sucesso.");
+        System.out.println("\nLogin realizado com sucesso.");
     }public void loginFalha(){
-        System.out.println("Falha ao realizar login, usuário não encontrado.");
+        System.out.println("\nFalha ao realizar login, usuário não encontrado.");
     }
 }

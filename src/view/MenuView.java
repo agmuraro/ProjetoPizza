@@ -10,7 +10,7 @@ public class MenuView {
     }
 
     public int menuCadastro(){
-        System.out.println("--- PIZZARIA ---");
+        System.out.println("\n--- PIZZARIA ---");
         System.out.println("É necessário cadastro para fazer um pedido!");
         System.out.println("(1) Cadastrar-se");
         System.out.println("(2) Entrar");
@@ -22,7 +22,7 @@ public class MenuView {
     }
 
     public int menuPedido(){
-        System.out.println("--- PIZZARIA ---");
+        System.out.println("\n--- PIZZARIA ---");
         System.out.println("(1) Fazer pedido");
         System.out.println("(2) Listar pizzas");
         System.out.println("(9) Sair");

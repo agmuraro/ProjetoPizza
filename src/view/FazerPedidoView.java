@@ -7,7 +7,7 @@ import java.util.concurrent.ExecutionException;
 public class FazerPedidoView {
 
     public void listarPedidos(ResultSet lista){
-        System.out.println("---SABORES DE PIZZA---");
+        System.out.println("\n---SABORES DE PIZZA---");
 
         try{
             while(lista.next()){

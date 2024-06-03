@@ -13,7 +13,6 @@ public class MenuController {
     private Scanner scanner;
     private int opcaoc;
     private int opcaop;
-    private boolean resultadoLogin;
 
     public MenuController(Scanner scanner) {
         this.scanner = scanner;
@@ -28,10 +27,19 @@ public class MenuController {
                 cduser.cadastrar();
             } else if (this.opcaoc == 2) {
                 lguser.realizarLogin(scanner);
-                this.mv.menuPedido();
-                this.opcaop = this.mv.menuPedido();
-                while (this.opcaop != 9){
 
+                while (this.opcaop != 9){
+                    this.opcaop = this.mv.menuPedido();
+                        if (this.opcaop == 1 ){
+                            System.out.println("goku");
+                        }
+                        else if (this.opcaop == 2){
+                            this.fpc = new FazerPedidoController();
+
+                        }
+                        else if (this.opcaop == 9){
+                            this.mv.sair();
+                        }
 
 
                 }

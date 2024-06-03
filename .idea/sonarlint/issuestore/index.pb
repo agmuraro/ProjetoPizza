@@ -27,3 +27,5 @@ Y
 )src/controller/FazerPedidoController.java,0\b\0b371bbee88ff4b69dffcff01db1cf35f1b7fa71
 F
 src/view/MenuView.java,5\7\57f97a920b2e9fc508b70ea3471e468e3a61ad8d
+M
+src/view/FazerPedidoView.java,2\1\215be59f07a4e21a51d1217f12de44cefd8fe3b0

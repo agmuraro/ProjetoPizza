@@ -2,12 +2,17 @@ package controller;
 
 import com.amazonaws.services.cognitoidp.model.AuthenticationResultType;
 import dao.UsuarioDAO;
+import model.Usuario;
 import view.LoginView;
+import view.MenuView;
+
 import java.util.Scanner;
 
 public class LoginController {
     private UsuarioDAO usuarioDAO;
+    private Usuario usuarioL;
     private LoginView lgview;
+    private AuthenticationResultType resultadoAut;
 
     public LoginController() {
         this.usuarioDAO = new UsuarioDAO();
@@ -17,13 +22,13 @@ public class LoginController {
         if (lgview == null) {
             lgview = new LoginView(this, scanner);
         }
-        lgview.exibirLogin();
+        Usuario usuarioL = lgview.exibirLogin();
+        autenticarLogin(usuarioL.getEmail(),usuarioL.getSenha());
     }
 
     public void autenticarLogin(String email, String senha) {
-        AuthenticationResultType resultado = usuarioDAO.autenticarCognito(email, senha);
-        System.out.println("Resultado da autenticação: " + resultado);
-        if (resultado != null) {
+        this.resultadoAut = usuarioDAO.autenticarCognito(email, senha);
+        if (this.resultadoAut != null) {
             lgview.loginSucesso();
         } else {
             lgview.loginFalha();

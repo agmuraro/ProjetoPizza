@@ -45,49 +45,20 @@ public class UsuarioDAO {
             authParams.put("USERNAME", email);
             authParams.put("PASSWORD", password);
 
-            System.out.println("Tentando autenticar usuário: " + email);
-
             InitiateAuthRequest authRequest = new InitiateAuthRequest()
                     .withAuthFlow(AuthFlowType.USER_PASSWORD_AUTH)
                     .withClientId(ConexaoCognito.CLIENT_ID)
                     .withAuthParameters(authParams);
 
-            InitiateAuthResult result = conexao.initiateAuth(authRequest);
+            InitiateAuthResult resultado = conexao.initiateAuth(authRequest);
 
-            if (result == null) {
-                System.out.println("Resultado de autenticação é nulo.");
-            } else {
-                System.out.println("Autenticação bem-sucedida para usuário: " + email);
-            }
-
-            return result.getAuthenticationResult();
+            return resultado.getAuthenticationResult();
         } catch (UserNotFoundException e) {
-            System.out.println("Erro: Usuário não encontrado - " + e.getErrorMessage());
-            return null;
-        } catch (NotAuthorizedException e) {
-            System.out.println("Erro: Não autorizado - " + e.getErrorMessage());
+            e.getErrorMessage();
             return null;
         } catch (Exception e) {
-            System.out.println("Erro geral: " + e.getMessage());
+            e.getMessage();
             return null;
         }
     }
-    
-    
-    public AuthenticationResultType autenticarCognita(String email, String password) {
-            AWSCognitoIdentityProvider conexao = ConexaoCognito.getCognitoClient();
-
-            Map<String, String> authParams = new HashMap<>();
-            authParams.put("USERNAME", email);
-            authParams.put("PASSWORD", password);
-
-            InitiateAuthRequest authRequest = new InitiateAuthRequest()
-                    .withAuthFlow(AuthFlowType.USER_PASSWORD_AUTH)
-                    .withClientId(ConexaoCognito.CLIENT_ID)
-                    .withAuthParameters(authParams);
-            InitiateAuthResult result = conexao.initiateAuth(authRequest);
-            return result.getAuthenticationResult();
-
-
-
-    }}
+}
