@@ -1,7 +1,7 @@
 package controller;
 
+import com.amazonaws.services.cognitoidp.model.AuthenticationResultType;
 import dao.UsuarioDAO;
-import model.Usuario;
 import view.LoginView;
 import java.util.Scanner;
 
@@ -20,7 +20,15 @@ public class LoginController {
         lgview.exibirLogin();
     }
 
-    public void autenticar() {
-        System.out.println("");
+    public void autenticarLogin(String email, String senha) {
+        AuthenticationResultType resultado = usuarioDAO.autenticarCognito(email, senha);
+        System.out.println("Resultado da autenticação: " + resultado);
+        if (resultado != null) {
+            lgview.loginSucesso();
+        } else {
+            lgview.loginFalha();
+        }
     }
 }
+
+

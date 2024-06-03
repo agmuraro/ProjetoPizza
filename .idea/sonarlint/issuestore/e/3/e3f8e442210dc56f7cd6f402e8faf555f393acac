@@ -1,16 +1,13 @@
 
-W
-java:S1481"5Remove this unused "createUserResult" local variable.(ª¹™İıÿÿÿÿ8¨ŠÔ³ı1
-s
-java:S1128"QRemove this unused import 'com.amazonaws.services.cognitoidp.model.AuthFlowType'.(Š¨¦¥úÿÿÿÿ8¸ŠÔ³ı1
-z
-java:S1128"]Remove this unused import 'com.amazonaws.services.cognitoidp.model.AuthenticationResultType'.(öœúß8¸ŠÔ³ı1
-u
-java:S1128	"XRemove this unused import 'com.amazonaws.services.cognitoidp.model.InitiateAuthRequest'.(£†¿³8¹ŠÔ³ı1
-y
-java:S1128
-"WRemove this unused import 'com.amazonaws.services.cognitoidp.model.InitiateAuthResult'.(âìÜÿÿÿÿÿ8¹ŠÔ³ı1
-P
-java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8¹ŠÔ³ı1
-L
-java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8¹ŠÔ³ı1
+‡
+java:S2259?"DA "NullPointerException" could be thrown; "result" is nullable here.(äšƒé8Éğ­×ı1J$7a87fe97-1e47-47e9-8e3e-3c4dff5b8896
+}
+java:S1481"5Remove this unused "createUserResult" local variable.(ª¹™İıÿÿÿÿ8°ß˜×ı1J$cbce17dc-d86f-4ee4-ac00-5e0ba23e0ff2
+‚
+java:S1481":Remove this unused "setUserPasswordResult" local variable.(ñæ¾úÿÿÿÿÿ8¤‹ò×ı1J$e9f429f7-36e3-4a8c-990c-46d1f2bf1199
+m	java:S1060"+Replace this use of System.out by a logger.(Äİ×8Ùğ­×ı1J$4d22bf96-5b81-40de-a8cd-670eda8a8de5
+m	java:S106:"+Replace this use of System.out by a logger.(ƒÛ·8İğ­×ı1J$6188528d-3abf-4138-86cb-5b5ac8dfee75
+r	java:S106<"+Replace this use of System.out by a logger.(âä¿”øÿÿÿÿ8Şğ­×ı1J$9ad62432-4309-4d21-a462-a579fa345e66
+r	java:S106A"+Replace this use of System.out by a logger.(ŞšÏ‰ıÿÿÿÿ8Şğ­×ı1J$3d648ee2-f7d6-4fd2-acb3-d4970d3f2877
+m	java:S106D"+Replace this use of System.out by a logger.(Ä¹8ßğ­×ı1J$0aedefbd-967c-4171-873a-e705ef4366b5
+m	java:S106G"+Replace this use of System.out by a logger.(æ»ÑÈ8àğ­×ı1J$90109c57-2a6f-4b12-a077-1b2cf24f3a72

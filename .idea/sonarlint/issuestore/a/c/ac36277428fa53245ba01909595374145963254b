@@ -1,12 +1,8 @@
 
-m	java:S106"+Replace this use of System.out by a logger.(Äá‚8¥î­ı1J$1aca91c8-dac1-464d-9e82-e97dcc0eff85
-m	java:S106"+Replace this use of System.out by a logger.(ùÒ“›8¥î­ı1J$9d9dd41b-47dc-4e43-a051-975ec84e9109
-j
-java:S1481"(Remove this unused "cpf" local variable.(Ò£í}8¥í÷±ı1J$8450d6dc-568d-42f3-ae3a-2b33e789463a
-m	java:S106"+Replace this use of System.out by a logger.(óùÜ8¥î­ı1J$a41267f3-3694-4e32-a7e0-7c61a8beff49
+m	java:S106"+Replace this use of System.out by a logger.(Äá‚8‹ÍŒÑı1J$12d27ea6-7976-4234-aef5-d1e07dc8ac8e
+m	java:S106"+Replace this use of System.out by a logger.(¦²…¼8œÍŒÑı1J$b04bf427-f7a1-41af-ad1c-ed83eb60dbee
+m	java:S106"+Replace this use of System.out by a logger.(óùÜ8ÍŒÑı1J$67f1aedb-d1f3-44a0-a25e-b8cfb73c4b8c
+r	java:S106"+Replace this use of System.out by a logger.(é§Í“ùÿÿÿÿ8˜¨üÑı1J$ab4365cd-47e5-4b7e-b861-7b181105d729
+m	java:S106"+Replace this use of System.out by a logger.(÷Œ§8İ…ıÑı1J$0b2eed8d-a83b-4c2b-856e-f556afa2ad52
 r
-java:S1481"*Remove this unused "senha" local variable.(ì Ü¼ûÿÿÿÿ8¥í÷±ı1J$c5136496-47b1-4d09-9b69-04e7d05ee851
-r
-java:S1128"*Remove this unused import 'model.Usuario'.(¬îÕ£üÿÿÿÿ8•ıø±ı1J$fe4c16a3-7d8b-44ff-8941-f4c8f68a614d
-i
-java:S1068"'Remove this unused "lgc" private field.(——“+8‹Óø±ı1J$67bf8e68-a45a-4d32-97d9-346e69414143
+java:S1128"*Remove this unused import 'model.Usuario'.(¬îÕ£üÿÿÿÿ8Á®ıÑı1J$33ba285f-0315-4262-960b-a9660ddc2eef
