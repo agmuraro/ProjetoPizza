@@ -6,12 +6,29 @@ import com.amazonaws.regions.Regions;
 import com.amazonaws.services.cognitoidp.AWSCognitoIdentityProvider;
 import com.amazonaws.services.cognitoidp.AWSCognitoIdentityProviderClientBuilder;
 
+import java.io.InputStream;
+import java.util.Properties;
+
 public class ConexaoCognito {
 
-    public static final String ACCESS_KEY = "AKIA6GBMG63LMTC3RYN5";
-    public static final String SECRET_KEY = "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";
-    public static final String USER_POOL_ID = "us-east-2_OlLMO3r7a";
-    public static final String CLIENT_ID = "2clabuec7sgupmu0jg52vcpo77";
+    private static final Properties configCognito = new Properties();
+
+    static {
+        try (InputStream input = ConexaoCognito.class.getClassLoader().getResourceAsStream("configCognito.properties")) {
+            if (input == null) {
+                System.out.println("Não foi possível carregar suas configuraçóes.");
+            } else {
+                configCognito.load(input);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static final String ACCESS_KEY = configCognito.getProperty("aws.accessKey");
+    public static final String SECRET_KEY = configCognito.getProperty("aws.secretKey");
+    public static final String USER_POOL_ID = configCognito.getProperty("aws.userPoolId");
+    public static final String CLIENT_ID = configCognito.getProperty("aws.clientId");
 
     public static AWSCognitoIdentityProvider getCognitoClient() {
         BasicAWSCredentials credenciais = new BasicAWSCredentials(ACCESS_KEY, SECRET_KEY);
@@ -21,4 +38,3 @@ public class ConexaoCognito {
                 .build();
     }
 }
-

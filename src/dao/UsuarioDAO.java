@@ -2,12 +2,42 @@ package dao;
 
 import com.amazonaws.services.cognitoidp.AWSCognitoIdentityProvider;
 import com.amazonaws.services.cognitoidp.model.*;
+import model.Pizza;
 import model.Usuario;
 
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.text.Normalizer;
 import java.util.HashMap;
 import java.util.Map;
 
 public class UsuarioDAO {
+    private Conexao conexao;
+    private String query;
+    private PreparedStatement ps;
+
+
+    public UsuarioDAO(){
+        this.conexao = Conexao.getInstancia();
+    }
+
+    public void inserirUsuario(Usuario usuario){
+
+        try{
+            this.query = "INSERT INTO usuario (email, senha) VALUES (?,?)";
+            this.ps = this.conexao.getConnection().prepareStatement(this.query);
+            this.ps.setString(1, usuario.getEmail());
+            this.ps.setString(2, usuario.getSenha());
+            this.ps.executeUpdate();
+            this.ps.close();
+        }
+        catch (SQLException ex){
+            ex.printStackTrace();
+        }
+        catch (Exception ex){
+            ex.printStackTrace();
+        }
+    }
 
     public void cadastrarUsuarioCognito(Usuario usuario) {
         try {
@@ -30,8 +60,8 @@ public class UsuarioDAO {
 
             AdminSetUserPasswordResult setUserPasswordResult = conexao.adminSetUserPassword(setUserPasswordRequest);
 
-        } catch (Exception e) {
-            e.getMessage();
+        } catch (AWSCognitoIdentityProviderException e) {
+            e.getErrorMessage();
         }
 
     }
@@ -55,9 +85,6 @@ public class UsuarioDAO {
             return resultado.getAuthenticationResult();
         } catch (UserNotFoundException e) {
             e.getErrorMessage();
-            return null;
-        } catch (Exception e) {
-            e.getMessage();
             return null;
         }
     }

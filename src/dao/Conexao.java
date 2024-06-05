@@ -13,9 +13,9 @@ public class Conexao {
 
     private Conexao() {
 
-        this.host = "jdbc:mysql://localhost:3307/projetopizza?useSSL=false";
+        this.host = "jdbc:mysql://localhost:3306/projetopizza?useSSL=false";
         this.usuario = "root";
-        this.senha = "";
+        this.senha = "joao";
 
 
 
@@ -25,8 +25,6 @@ public class Conexao {
         } catch (ClassNotFoundException ex) {
             ex.printStackTrace();
         } catch (SQLException ex) {
-            ex.printStackTrace();
-        } catch (Exception ex) {
             ex.printStackTrace();
         }
     }

@@ -4,8 +4,8 @@ import com.amazonaws.services.cognitoidp.model.AuthenticationResultType;
 import dao.UsuarioDAO;
 import model.Usuario;
 import view.LoginView;
-import view.MenuView;
 
+import java.text.Normalizer;
 import java.util.Scanner;
 
 public class LoginController {
@@ -22,8 +22,8 @@ public class LoginController {
         if (lgview == null) {
             lgview = new LoginView(this, scanner);
         }
-        Usuario usuarioL = lgview.exibirLogin();
-        autenticarLogin(usuarioL.getEmail(),usuarioL.getSenha());
+        Usuario usuarioL = normalizeUsuario(lgview.exibirLogin());
+        autenticarLogin(usuarioL.getEmail(), usuarioL.getSenha());
     }
 
     public void autenticarLogin(String email, String senha) {
@@ -34,6 +34,10 @@ public class LoginController {
             lgview.loginFalha();
         }
     }
+
+    private Usuario normalizeUsuario(Usuario usuario) {
+        String email = Normalizer.normalize(usuario.getEmail(), Normalizer.Form.NFKC);
+        String senha = Normalizer.normalize(usuario.getSenha(), Normalizer.Form.NFKC);
+        return new Usuario(senha, email);
+    }
 }
-
-

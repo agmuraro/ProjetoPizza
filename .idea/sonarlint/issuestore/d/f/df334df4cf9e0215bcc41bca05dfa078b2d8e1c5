@@ -1,9 +1,7 @@
 
-ž
-java:S1450"[Remove the "resultadoAut" field and declare it as a local variable in the relevant methods.(éâ¨¦8¾“·õý1J$4dd2c4b7-59ab-4a2c-aa31-34d18373cdbc
-„
-java:S1117"<Rename "usuarioL" which hides the field declared at line 13.(€Ð«íÿÿÿÿÿ8ÍÀõý1J$4ff10f54-493b-45f8-b577-d2a331084f62
-G
-java:S1128"*Remove this unused import 'view.MenuView'.(ÏÇû¦8€èÁõý1
-t
-java:S1068",Remove this unused "usuarioL" private field.(Ìè¼©ùÿÿÿÿ8ÍÀõý1J$47b77b05-59e7-4142-afbd-4183a17ab9e3
+x
+java:S1450"[Remove the "resultadoAut" field and declare it as a local variable in the relevant methods.(éâ¨¦8û¬ÙÉþ1
+^
+java:S1117"<Rename "usuarioL" which hides the field declared at line 13.(þ±ôÕÿÿÿÿÿ8û¬ÙÉþ1
+N
+java:S1068",Remove this unused "usuarioL" private field.(Ìè¼©ùÿÿÿÿ8„­ÙÉþ1

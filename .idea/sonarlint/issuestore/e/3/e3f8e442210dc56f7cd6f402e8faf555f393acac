@@ -1,9 +1,20 @@
 
-Œ
-java:S1854"DRemove this useless assignment to local variable "createUserResult".(ª¹™Ýýÿÿÿÿ8®ý—÷ý1J$2af6fee1-0434-42dc-9884-f3fa012b7d8d
-‘
-java:S1854"IRemove this useless assignment to local variable "setUserPasswordResult".(ñæ¾úÿÿÿÿÿ8®ý—÷ý1J$5041ee90-0809-4033-8a63-1a4303fd64c9
+”
+java:S1450"QRemove the "ps" field and declare it as a local variable in the relevant methods.(œíÂÊ8ë¾ÒÈþ1J$c9403bfc-d024-4d3b-a15d-0f898152ffb2
+—
+java:S1450"TRemove the "query" field and declare it as a local variable in the relevant methods.(Ëªé¶8ë¾ÒÈþ1J$9e621e2d-ab58-45da-90ad-5d73cd8781a0
+‡
+java:S2147%"DCombine this catch with the one at line 34, which has the same body.(…‰”Ï8ú¾ÒÈþ1J$a6b5c072-85eb-4b23-9b4a-857172611d92
+ƒ
+java:S1117,";Rename "conexao" which hides the field declared at line 15.(‡çò€úÿÿÿÿ8ú¾ÒÈþ1J$214abe0e-49a6-4273-93b0-84185675b167
 }
-java:S1481"5Remove this unused "createUserResult" local variable.(ª¹™Ýýÿÿÿÿ8çÐ–ôý1J$fa8e46d9-abd1-4292-b67a-adc1acc76cd9
+java:S14815"5Remove this unused "createUserResult" local variable.(ª¹™Ýýÿÿÿÿ8ÊïÕÈþ1J$914d3b1a-7d1a-4187-832e-df2634533eb8
 ‚
-java:S1481":Remove this unused "setUserPasswordResult" local variable.(ñæ¾úÿÿÿÿÿ8êÐ–ôý1J$81aa484d-7159-4f68-95a0-c6a41f471309
+java:S1481=":Remove this unused "setUserPasswordResult" local variable.(ñæ¾úÿÿÿÿÿ8ÚïÕÈþ1J$ae58ae7c-f744-4f93-b52a-2a11bc77a05d
+ƒ
+java:S1117H";Rename "conexao" which hides the field declared at line 15.(‡çò€úÿÿÿÿ8Š¿ÒÈþ1J$e1cfbe26-0b72-4ee8-9609-c29d55a59dbe
+p
+java:S1128"(Remove this unused import 'model.Pizza'.(˜ŒÒ±úÿÿÿÿ8Š¿ÒÈþ1J$2afca173-a711-421d-979c-74a08ff06792
+y
+java:S1128
+"1Remove this unused import 'java.text.Normalizer'.(‡âÌ€øÿÿÿÿ8‚£áÊþ1J$28a527e7-c96f-4ada-a103-18379bf0e0ed
