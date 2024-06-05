@@ -1,11 +1,8 @@
 
- 	java:S135#"YReduce the total number of break and continue statements in this loop to use at most one.(¢œàçÿÿÿÿÿ8ò‘èÌş1J$c823c73c-e0c0-4c22-91fa-92baf556d797
+ 	java:S135""YReduce the total number of break and continue statements in this loop to use at most one.(¢œàçÿÿÿÿÿ8ò‘èÌş1J$caf3893d-44d6-4895-827a-31640dc5805a
 š
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(©”ï¥ıÿÿÿÿ8Å”èÌş1J$f5bde5c6-4787-4ec1-8a24-288d394e022f
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.(©”ï¥ıÿÿÿÿ8Å”èÌş1J$85c6944d-9c46-461b-9f56-34f44e11e1b2
 x
-java:S1751."5Remove this "break" statement or make it conditional.(›ûä·8Ì”èÌş1J$35f25728-a700-4167-9070-0c8a5051495a
-j
-java:S1068
-"'Remove this unused "cpc" private field.(ø¶•¶8Ò”èÌş1J$e01622fd-c460-419d-a086-c86eb50d8b43
+java:S1751-"5Remove this "break" statement or make it conditional.(›ûä·8Ì”èÌş1J$1589d2b9-0fea-4f02-85b2-f31d36323dfc
 n
-java:S1068"+Remove this unused "scanner" private field.(Ù‘Ğ8Ó”èÌş1J$224fe06f-68db-4348-9faf-63d3c826dd65
+java:S1068"+Remove this unused "scanner" private field.(Ù‘Ğ8Ó”èÌş1J$58f5eff2-5d66-4f28-960f-5101e60131f4

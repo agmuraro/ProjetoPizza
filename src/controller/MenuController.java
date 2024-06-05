@@ -7,7 +7,6 @@ import java.util.Scanner;
 
 public class MenuController {
     private CadastrarUsuarioController cduser;
-    private CadastrarPizzaController cpc;
     private FazerPedidoController fpc;
 
     private LoginController lguser;
@@ -57,8 +56,6 @@ public class MenuController {
                 }
             } else if (this.opcaoc == 3) {
                 this.fpc = new FazerPedidoController();
-            } else if (this.opcaoc == 4) {
-                this.cpc = new CadastrarPizzaController();
             } else if (this.opcaoc == 9) {
                 this.mv.sair();
             } else {
