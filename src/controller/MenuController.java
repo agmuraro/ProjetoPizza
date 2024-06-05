@@ -1,6 +1,8 @@
 package controller;
 
 import view.MenuView;
+
+import java.util.List;
 import java.util.Scanner;
 
 public class MenuController {
@@ -28,18 +30,21 @@ public class MenuController {
                 cduser.cadastrar();
             } else if (this.opcaoc == 2) {
                 lguser.realizarLogin(scanner);
+                this.fpc = new FazerPedidoController();
+                List<String> pizzas = fpc.getPizzas();
                 while (this.opcaop != 9){
                     this.opcaop = this.mv.menuPedido();
                         if (this.opcaop == 1 ){
                             this.opcaop = this.mv.menuEscolha();
                             while(this.opcaop != 9) {
-                                mv.confirmaPedido();
+                                if (opcaop > 0 && opcaop <= pizzas.size()) {
+                                    mv.confirmaPedido();
+                                } else {
+                                    mv.escolhaInvalida();
+                                }
+
                                 break;
                             }
-                        }
-                        else if (this.opcaop == 2){
-                            this.fpc = new FazerPedidoController();
-
                         }
                         else if (this.opcaop == 9){
                             this.mv.sair();

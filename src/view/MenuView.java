@@ -24,7 +24,6 @@ public class MenuView {
     public int menuPedido(){
         System.out.println("\n--- PIZZARIA ---");
         System.out.println("(1) Fazer pedido");
-        System.out.println("(2) Listar pizzas");
         System.out.println("(9) Voltar");
         System.out.print("Opção: ");
         int opcaop = scanner.nextInt();
@@ -53,5 +52,9 @@ public class MenuView {
 
     public void opcaoInvalida(){
         System.out.println("Opção inválida!");
+    }
+
+    public void escolhaInvalida() {
+        System.out.println("Escolha um número de pedido válido.");
     }
 }

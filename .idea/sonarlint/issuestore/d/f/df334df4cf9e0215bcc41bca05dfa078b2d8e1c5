@@ -1,7 +1,7 @@
 
-x
-java:S1450"[Remove the "resultadoAut" field and declare it as a local variable in the relevant methods.(éâ¨¦8û¬ÙÉş1
-^
-java:S1117"<Rename "usuarioL" which hides the field declared at line 13.(ş±ôÕÿÿÿÿÿ8û¬ÙÉş1
-N
-java:S1068",Remove this unused "usuarioL" private field.(Ìè¼©ùÿÿÿÿ8„­ÙÉş1
+
+java:S1450"[Remove the "resultadoAut" field and declare it as a local variable in the relevant methods.(éâ¨¦8û¬ÙÉş1J$9738d0d5-7c43-4743-91be-3d4ffcdaa6b5
+„
+java:S1117"<Rename "usuarioL" which hides the field declared at line 13.(ş±ôÕÿÿÿÿÿ8û¬ÙÉş1J$05000c90-f433-4039-bed6-d0c2c345ccdd
+t
+java:S1068",Remove this unused "usuarioL" private field.(Ìè¼©ùÿÿÿÿ8„­ÙÉş1J$8736dde9-aab3-42e1-bd8d-e94726c53487
